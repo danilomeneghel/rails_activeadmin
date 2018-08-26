@@ -54,7 +54,7 @@ http://localhost:3000/rails/info/routes
 
 To be able to connect, I advise you to create an account on the panel.
 
-You can use the default: 
+- You can use the default: 
 	- User: admin@admin.com
 	- Password: 123456
 
