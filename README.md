@@ -36,6 +36,7 @@ $ git clone https://github.com/danilomeneghel/rails_activeadmin.git
 
 $ cd rails_activeadmin
 $ rake db:migrate
+$ rake db:seed
 ```
 
 After everything is done, run the project:
@@ -55,8 +56,8 @@ http://localhost:3000/rails/info/routes
 To be able to connect, I advise you to create an account on the panel.
 
 - You can use the default: 
-	- User: admin@admin.com
-	- Password: 123456
+	- User: admin@example.com
+	- Password: password
 
 ## License
 
