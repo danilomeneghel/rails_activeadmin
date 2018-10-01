@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.3.3'
-
 gem 'activeadmin'
 gem 'devise'
 
@@ -10,9 +8,12 @@ gem 'devise'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
 group :production do
+	ruby '2.4.4'
 	gem 'pg'
+	gem 'rails_12factor'
 end
 group :development do
+	ruby '2.3.3'
 	gem 'sqlite3'
 end
 # Use Puma as the app server
