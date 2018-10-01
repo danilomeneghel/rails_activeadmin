@@ -8,11 +8,11 @@ gem 'devise'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
 group :production do
-	ruby '2.4.4'
+	ruby '2.2.2'
 	gem 'pg'
 	gem 'rails_12factor'
 end
-group :development do
+group :development, :test do
 	ruby '2.3.3'
 	gem 'sqlite3'
 end
